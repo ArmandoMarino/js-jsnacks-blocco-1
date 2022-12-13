@@ -16,20 +16,24 @@ const button = document.getElementById ("button-enter");
 console.log(button);
 
 
-let strUser = [''];
-    console.log (strUser);
+let strUser = [];
+    
+
 
 button.addEventListener("click", function(){
+    for (let i = 0; i < 1; i++){
     let = numberUser = parseInt(number.value.trim());
     strUser.push (numberUser);
-    strUser.split (numberUser);
-    sum += numberUser[i];
-    result.innerText = sum;
-    console.log(result);
+    strUser = (String(strUser).split(''))
+    console.log (strUser);
+    
+    let sum = 0
+    for (let i = 0; i < strUser.length; i++) {
+        sum += strUser[i];
+        console.log(sum);
+      }
 
-    // console.log(numberUser + "Number User");
-    // console.log(strUser);
-
+    }
    
 });
 
