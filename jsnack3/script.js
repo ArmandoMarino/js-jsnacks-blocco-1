@@ -15,19 +15,17 @@ console.log(number);
 const button = document.getElementById ("button-enter");
 console.log(button);
 
-let strUser = [];
 
+let strUser = [''];
+    console.log (strUser);
 
 button.addEventListener("click", function(){
-    numberUser = parseInt(number.value.trim());
+    let = numberUser = parseInt(number.value.trim());
 
     console.log(numberUser + "Number User");
-    
-    for ( let i = 0; i < numberUser.length; i++){
-        strUser.push(numberUser);
-        
-    }
-
     console.log(strUser);
+
    
 });
+
+
