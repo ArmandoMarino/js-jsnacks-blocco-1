@@ -10,7 +10,7 @@ const result = document.getElementById("result-print");
 console.log(result);
 
 for (let i = 0; i < 5; i++){
-    let userNumber =parseInt(prompt ("Inserisci un numero")) ;
+    let userNumber = parseInt(prompt ("Inserisci un numero")) ;
     console.log("UserNumber:" + userNumber);
     const sum = userNumber + (userNumber * i);
     result.innerText = sum;
