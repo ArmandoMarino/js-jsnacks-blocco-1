@@ -9,10 +9,14 @@ console.log("JS OK");
 const result = document.getElementById("result-print");
 console.log(result);
 
+const userNumbers = [];
+let sum = 0;
+
 for (let i = 0; i < 5; i++){
     let userNumber = parseInt(prompt ("Inserisci un numero")) ;
     console.log("UserNumber:" + userNumber);
-    const sum = userNumber + (userNumber * i);
+    userNumbers.push (userNumber);
+    sum += userNumbers[i];
     result.innerText = sum;
 };
 
