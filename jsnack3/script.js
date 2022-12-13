@@ -18,8 +18,6 @@ console.log(button);
 
 let strUser = [];
     
-
-
 button.addEventListener("click", function(){
     for (let i = 0; i < 1; i++){
     let = numberUser = parseInt(number.value.trim());
