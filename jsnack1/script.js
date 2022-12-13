@@ -12,7 +12,7 @@ console.log(result);
 const userNumbers = [];
 let sum = 0;
 
-for (let i = 0; i < 5; i++){
+for (let i = 0; i < 10; i++){
     let userNumber = parseInt(prompt ("Inserisci un numero")) ;
     console.log("UserNumber:" + userNumber);
     userNumbers.push (userNumber);
