@@ -14,28 +14,22 @@ const allowedGuests = ["Armando" , "Elena" , "Emilio", "Grazia", "Alessandro"];
 
 button.addEventListener ("click", function(){
     const nameField = document.getElementById ("name");
-    const userName = nameField.value;
+    const userName = nameField.value.trim();
 
     let isAllowed = false;
 
     for(let i = 0; i < allowedGuests.length; i++){
         const currentName = allowedGuests [i];
         console.log (currentName, userName);
+
         if (currentName === userName){
             isAllowed = true;
-        } else{
-            isAllowed = false;
         }
-    
-        if (isAllowed){
-            alert ("Benvenuto!");
-            return;
-        } else {
-            alert ("Spiacente non sei in lista");
-            return;
-        }
-    }
 
+    }
+      
+
+    const message = isAllowed ? alert("Benvenuto!") : alert("Spiacente non sei in lista...");
    
 });
 
