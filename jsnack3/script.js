@@ -23,10 +23,11 @@ button.addEventListener("click", function(){
 
     console.log(numberUser + "Number User");
     
-    for ( let i = 0; i < strUser.length; i++){
-
+    for ( let i = 0; i < numberUser.length; i++){
+        strUser.push(numberUser);
+        
     }
 
-  
+    console.log(strUser);
    
 });
