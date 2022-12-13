@@ -21,9 +21,14 @@ let strUser = [''];
 
 button.addEventListener("click", function(){
     let = numberUser = parseInt(number.value.trim());
+    strUser.push (numberUser);
+    strUser.split (numberUser);
+    sum += numberUser[i];
+    result.innerText = sum;
+    console.log(result);
 
-    console.log(numberUser + "Number User");
-    console.log(strUser);
+    // console.log(numberUser + "Number User");
+    // console.log(strUser);
 
    
 });
