@@ -24,13 +24,6 @@ button.addEventListener("click", function(){
     strUser.push (numberUser);
     strUser = (String(strUser).split(''))
     console.log (strUser);
-    
-    let sum = 0
-    sum = strUser[0] + strUser[1];
-    console.log(sum + "sum");
-    // for (let i = 0; i < strUser.length; i+=1) {
-        
-    //   }
 
     }
    
