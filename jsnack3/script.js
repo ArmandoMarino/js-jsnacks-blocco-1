@@ -19,17 +19,18 @@ console.log(button);
 let strUser = [];
     
 button.addEventListener("click", function(){
-    for (let i = 0; i < 1; i++){
+    for (let i = 0; i < strUser.length; i++){
     let = numberUser = parseInt(number.value.trim());
     strUser.push (numberUser);
     strUser = (String(strUser).split(''))
     console.log (strUser);
     
     let sum = 0
-    for (let i = 0; i < strUser.length; i++) {
-        sum += strUser[i];
-        console.log(sum);
-      }
+    sum += strUser[i];
+    console.log(sum + "sum");
+    // for (let i = 0; i < strUser.length; i+=1) {
+        
+    //   }
 
     }
    
